@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>HTML Forms</title>
         <!-- TO DO: Add your name to the meta author tag -->
-        <meta name="author" content="Jessica Barnett">
+        <meta name="author" content="Sofia Greco">
         <meta name="description" content="Let's learn how to add a form with semantic widgets to a website using HTML.'">
 
         <!-- Favicon -->
@@ -61,11 +61,12 @@
 
                 <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
                     <!-- TO DO: add inputs below for the user's name and age, using the correct input types. Both should be required for submission and should be properly associated with their labels -->
-                    <label for="first-name">Please Enter Your First Name: <span class="required">*</span></label>
                     
+                    <label for="first-name">Please Enter Your First Name: <span class="required">*</span></label>
+                    <input type="text" name="first-name" id="first-name" autocomplete="given-name" required>                    
                     
                     <label for="user-age">Please Enter Your Age in Years: <span class="required">*</span></label>
-                    
+                    <input type="number" name="user-age" id="user-age" required>
                     
                     <input type="submit" name="my-submit2" id="my-submit2" value="Submit Form">
                 </form>

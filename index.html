@@ -53,7 +53,7 @@
                 <!-- TO DO: Add a form here with the correct action and method attributes, then add a single input for a full name that is required for submission. Be sure to include a properly associated label to this form. You will also need to add a control to allow the user to submit the form. The label should say: "Please Enter Your Full Name: *" and the text on the control to submit should say "Submit Form" -->
                 <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
 
-                    <label for="f-name">Please Enter Your First Name: <span class="required">*</span></label>
+                    <label for="f-name">Please Enter Your Full Name: <span class="required">*</span></label>
                     <input type="text" name="f-name" id="f-name" autocomplete="given-name" required>
 
                     <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
@@ -69,7 +69,7 @@
                     <!-- TO DO: add inputs below for the user's name and age, using the correct input types. Both should be required for submission and should be properly associated with their labels -->
                     
                     <label for="first-name">Please Enter Your First Name: <span class="required">*</span></label>
-                    <input type="text" name="first-name" id="first-name" autocomplete="given-name" required>                    
+                    <input type="text" name="first-name" id="first-name" required>                    
                     
                     <label for="user-age">Please Enter Your Age in Years: <span class="required">*</span></label>
                     <input type="number" name="user-age" id="user-age" required>
@@ -93,7 +93,7 @@
                     <input type="email" name="email-addr" id="email-addr" required>
                     
                     <label for="phone-num">Phone Number: <span class="required">*</span></label>
-                    <input type="tel name="phone-num" id="phone-num" required>
+                    <input type="tel" name="phone-num" id="phone-num" required>
                     
                     <input type="submit" name="my-submit3" id="my-submit3" value="Submit Form">
                 </form>

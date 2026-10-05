@@ -51,7 +51,13 @@
                 <p>Please fill out and submit the form below. Required inputs are marked with an <span class="required">*</span></p>
 
                 <!-- TO DO: Add a form here with the correct action and method attributes, then add a single input for a full name that is required for submission. Be sure to include a properly associated label to this form. You will also need to add a control to allow the user to submit the form. The label should say: "Please Enter Your Full Name: *" and the text on the control to submit should say "Submit Form" -->
-                
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+
+                    <label for="f-name">Please Enter Your First Name: <span class="required">*</span></label>
+                    <input type="text" name="f-name" id="f-name" autocomplete="given-name" required>
+
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                </form>
             </section>
 
             <section id="text-num">
@@ -84,7 +90,7 @@
                     
                     <!-- TO DO: add inputs below for the user's telephone number and email address - both should be required for submission -->
                     <label for="email-addr">Email Address: <span class="required">*</span></label>
-                    
+                    <input type
                     
                     <label for="phone-num">Phone Number: <span class="required">*</span></label>
                     
